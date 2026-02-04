@@ -1,0 +1,352 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(49, 59, 76);
+  font-family: "Cabin", sans-serif;
+}
+
+/* global selevtor */
+.btn {
+  width: 152px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &.primary-btn {
+    background-color: rgb(222, 65, 50);
+    color: white;
+  }
+
+  &.second-btn {
+    background-color: white;
+    color: rgb(222, 65, 50);
+
+  }
+}
+
+button {
+
+  color: white;
+
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 80px;
+
+    .left-div {
+      display: flex;
+      gap: 80px;
+
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        list-style: none;
+
+        a {
+          text-decoration: none;
+
+          &.active {
+            color: rgb(222, 65, 50);
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+  .hero {
+    margin: 112px 72px;
+    width: 544px;
+
+     h1 {
+
+      width: 522px;
+      font-size: 63px;
+      font-weight: 600;
+
+      span {
+        color: rgb(222, 65, 50);
+        margin-bottom: 32px;
+      }
+    }
+
+    p {
+      margin: 24px 0 32px;
+    }
+
+    .button {
+      display: flex;
+      gap: 24px;
+
+    }
+
+  }
+
+}
+
+main {
+  .Partners {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: rgb(254, 249, 249);
+
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      
+
+      span {
+        color: rgb(222, 65, 50);
+      }
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 56px;
+    }
+  }
+
+  .ski-sno {
+    margin-top: 105px;
+
+    h1 {
+      text-align: center;
+
+      span {
+        color: rgb(222, 65, 50);
+      }
+    }
+
+    .cards {
+      margin-top: 64px;
+      display: flex;
+      justify-content: space-around;
+
+      h2 {
+        font-size: 18px;
+        margin-top: 16px;
+      }
+
+      p {
+        font-size: 14px;
+        width: 384px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+      }
+
+      a {
+        font-size: 14px;
+        color: rgb(222, 65, 50);
+        text-decoration: none;
+
+        i {
+          color: rgb(222, 65, 50);
+        }
+      }
+    }
+
+  }
+
+  .push {
+    margin-top: 104px;
+    height: 360px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      font-size: 40px;
+      color: white;
+      padding-top: 96px;
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      color: rgb(194, 207, 212);
+      font-weight: 600;
+      font-size: 18px;
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+    }
+
+  }
+
+  .newsFeed {
+    margin: 104px 0 0 72px;
+
+    .test {
+      display: flex;
+      gap: 32px; 
+
+      .card-two {
+        display: flex;
+        gap: 24px;
+              .card {
+                  width: 392px;
+
+      img{
+        width: 392px;
+        height: 272px;
+        border-radius: 10px;
+      }
+
+      pre {
+        font-size: 12px;
+        margin-top: 24px;
+        color: rgb(136, 141, 156);
+      }
+
+      h2 {
+        width: 344px;
+        font-size: 25px;
+      }
+
+      p {
+        width: 368px;
+        font-size: 15px;
+        color: rgb(136, 141, 156);
+        margin-top: 16px;
+      }
+
+    }
+        
+      }
+
+    }
+
+    h1 {
+      margin-bottom: 64px;
+
+      span {
+        color: rgb(222, 65, 50);
+      }
+
+    }
+
+
+
+    .card-four {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      hr{
+        border: none;
+        height: 2px;
+        background-color: rgb(240, 240, 240);
+      }
+
+
+      .card {
+        width: 384px;
+        height: 80px;
+        display: flex;
+        gap: 8px;
+        .cont{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        img {
+          width: 112px;
+          height: 72px;
+          border-radius: 10px;
+        }
+        pre{
+          font-size: 12px;
+        }
+        h3{
+          width: 216px;
+          font-size: 15px;
+
+        }
+        
+      }
+
+    }
+  }
+
+  .form{
+    height: 296px;
+    background-color: rgb(254, 249, 249);
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    .cont{
+      display: flex;
+      flex-direction: column;
+      justify-content: center ;
+      gap: 8px;
+      .p1{
+          font-size: 12px;
+          font-weight: 600;
+           color: rgb(222, 65, 50);
+      }
+      h1{
+        width: 424px;
+        font-size: 45px;
+          span{
+            color: rgb(222, 65, 50);
+          }
+
+      }
+      .p2{
+        width: 448px;
+        font-size: 15px;
+        color: rgb(136, 141, 156);
+      }
+      
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+        input{
+          width: 424px;
+          height: 48px;
+          border-radius: 5px;
+          border: none;
+          background-color: rgb(242, 243, 244);
+          padding:16px 24px;
+        }
+    }
+  }
+
+}
+footer{
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    color: rgb(136, 141, 156);
+    font-size: 15px;
+  }
+}
